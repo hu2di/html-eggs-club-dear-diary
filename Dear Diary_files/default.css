@@ -1,0 +1,185 @@
+/*-----------------------------------------------------------------------------------*/
+/*	PopUp Base
+/*-----------------------------------------------------------------------------------*/
+
+#fblikepop{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for IE 6*/
+	width:450px;
+	border:8px solid #353535;
+	z-index:9999;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	margin:0pt;
+	padding:0pt;
+	color:#333333;
+	text-align:left;
+	font-family:arial,sans-serif !important;
+	font-size:13px;
+}
+
+
+#fblikepop body{
+	background:#fff !important;
+	line-height:1;
+	margin:0pt;
+	height:100%;
+}
+
+.fbflush:hover{
+	color:#000 !important;
+}
+
+#fblikebg{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for IE 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000; 
+	z-index:9998;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Title
+/*-----------------------------------------------------------------------------------*/
+
+#fblikepop h1{ 
+	background:#6D84B4 none repeat scroll 0 0 !important;
+	border:1px solid #3c5492 !important;
+	color:#FFFFFF !important;
+	font-size:14px !important;
+	font-weight:normal !important;
+	padding:6px 5px !important;
+	margin:0 !important;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+	clear:none!important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Popup Message
+/*-----------------------------------------------------------------------------------*/
+
+#fblikepop #popupMessage{
+	font-size:12px !important;
+	font-weight:normal !important;
+	line-height:22px;
+	padding:8px;
+	background:#fff !important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Close Button Area
+/*-----------------------------------------------------------------------------------*/
+
+#fblikepopClose{
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:absolute;
+	display:block;
+}
+
+.fbflush{
+	cursor: pointer;
+	font-size:11px;
+	color:#FFFFFF !important;
+	border:0px !important;
+	text-decoration:none !important;
+}
+
+#fblikepop #closeable{
+	float:right;
+	margin:6px 15px 0 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Popup Bottom
+/*-----------------------------------------------------------------------------------*/
+
+#fblikepop #buttonArea{
+	background:#F2F2F2;
+	border-top:1px solid #CCCCCC;
+	padding:9px;
+	min-height:50px;
+}
+
+#fblikepop #counter-display a{
+	color:#999999 !important;
+	border-bottom:none !important;
+	text-decoration:none !important;
+	font-size:11px !important;
+}
+
+#fblikepop #counter-display a:hover{
+	color:#333 !important;
+	text-decoration:none !important;
+}
+
+#fblikepop #counter-display{
+	clear:both;
+	float:right;
+	font-size:12px !important;
+	font-weight:normal !important;
+	margin:5px 0 0 0;
+	text-align:right;
+	line-height:16px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Buttons
+/*-----------------------------------------------------------------------------------*/
+
+.fbtp-social-button{
+	float:left;
+}
+
+.fbtp-social-button.share{ width:auto; margin:0 6px 0 0; }
+.fbtp-social-button.like{ width:300px; }
+
+/* Box Count Styles */
+.fbtp-social-button.share.box_count{
+	padding:39px 0 0 0;
+}
+
+/* Button Count Styles */
+.fbtp-social-button.share.button_count .fbtp-share{
+	padding:4px 4px 3px !important;
+}
+
+.fbtp-share{
+	float:left;
+	padding:6px 6px 5px;
+	font-size:11px !important;
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif !important;
+	text-decoration:none !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.fbtp-share span{
+	padding:1px 0 0 17px;
+}
+
+/* Light Theme */
+.fbtp-share.light{
+	background-color:#eceef6;
+	border:1px solid #cad4e7;
+	color:#3b5998 !important;
+}
+.fbtp-share.light span{ background:url(../../images/share-btn.png) 0px 0px no-repeat transparent; }
+.fbtp-share.light:hover{ border:1px solid #9dacce; }
+
+/* Dark Theme */
+.fbtp-share.dark{
+	background-color:#c7c7c7;
+	border:1px solid #999;
+	color:#333 !important;
+}
+.fbtp-share.dark span{ background:url(../../images/share-btn.png) 0px -13px no-repeat transparent; }
+.fbtp-share.dark:hover{ border:1px solid #ddd; background-color:#d9d9d9; }
