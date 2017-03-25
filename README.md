@@ -1,2 +1,2 @@
 # html-eggs-club-dear-diary
-Webpage Dear Diary (html, css)
+Web page Dear Diary (html, css)
